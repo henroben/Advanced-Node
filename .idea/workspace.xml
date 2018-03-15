@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="loop.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loop.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="152" lean-forward="false" selection-start-line="13" selection-start-column="152" selection-end-line="13" selection-end-column="152" />
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/threads.js" />
         <option value="$PROJECT_DIR$/async.js" />
         <option value="$PROJECT_DIR$/loop.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,12 +174,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521110556020</updated>
-      <workItem from="1521110557737" duration="3342000" />
+      <workItem from="1521110557737" duration="3488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3342000" />
+    <option name="totallyTimeSpent" value="3488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
@@ -244,6 +245,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="152" lean-forward="false" selection-start-line="13" selection-start-column="152" selection-end-line="13" selection-end-column="152" />
+          <folding>
+            <marker date="1521123123000" expanded="true" signature="264:701" ph="{...}" />
+            <marker date="1521123123000" expanded="true" signature="270:613" ph="//..." />
+            <marker date="1521123123000" expanded="true" signature="777:1280" ph="{...}" />
+            <marker date="1521123123000" expanded="true" signature="995:1164" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
