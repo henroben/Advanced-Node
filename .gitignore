@@ -1,5 +1,7 @@
 /node_modules
-/dist
+/project/node_modules
+/project/keys/dev.js
+/project/client/node_modules
 
 # IntelliJ
 *.iml

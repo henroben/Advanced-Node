@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71347090-82b9-4661-8f5a-9285fa8e460d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clustermode/index.js" afterPath="$PROJECT_DIR$/clustermode/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clustermode/index.js">
+      <file leaf-file-name="temp.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/temp.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="72">
+              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -36,11 +39,16 @@
       <list>
         <option value="$PROJECT_DIR$/threads.js" />
         <option value="$PROJECT_DIR$/loop.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/async.js" />
         <option value="$PROJECT_DIR$/multitask.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/clustermode/cluster_example.js" />
         <option value="$PROJECT_DIR$/clustermode/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/worker-threads/index.js" />
+        <option value="$PROJECT_DIR$/project/config/dev.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/temp.txt" />
       </list>
     </option>
   </component>
@@ -61,9 +69,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1177" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,6 +112,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-node" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced-node" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="clustermode" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -122,6 +161,8 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -213,15 +254,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521110556020</updated>
-      <workItem from="1521110557737" duration="6373000" />
+      <workItem from="1521110557737" duration="11442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6373000" />
+    <option name="totallyTimeSpent" value="11442000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -279,14 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threads.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -317,10 +350,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clustermode/cluster_example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1521192767000" expanded="true" signature="140:259" ph="{...}" />
+            <marker date="1521192767000" expanded="true" signature="265:661" ph="{...}" />
+            <marker date="1521192767000" expanded="true" signature="436:552" ph="{...}" />
+            <marker date="1521192767000" expanded="true" signature="499:544" ph="{...}" />
+            <marker date="1521192767000" expanded="true" signature="591:634" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1521199720000" expanded="true" signature="0:544" ph="{&quot;name&quot;: &quot;advanced-node&quot;...}" />
+            <marker date="1521199720000" expanded="true" signature="0:545" ph="{&quot;name&quot;: &quot;advanced-node&quot;...}" />
+            <marker date="1521199720000" expanded="true" signature="107:170" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
+            <marker date="1521199720000" expanded="true" signature="188:275" ph="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1521199720000" expanded="true" signature="323:390" ph="{&quot;url&quot;: &quot;https://github.com/henroben/Advanced-Node/issues&quot;...}" />
+            <marker date="1521199720000" expanded="true" signature="476:502" ph="{&quot;express&quot;: &quot;^4.16.3&quot;...}" />
+            <marker date="1521199720000" expanded="true" signature="476:542" ph="{&quot;express&quot;: &quot;^4.16.3&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clustermode/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1521196396000" expanded="true" signature="0:136" ph="//..." />
+            <marker date="1521196396000" expanded="true" signature="259:359" ph="{...}" />
+            <marker date="1521196396000" expanded="true" signature="318:355" ph="{...}" />
+            <marker date="1521196396000" expanded="true" signature="394:429" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker-threads/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <marker date="1521207005000" expanded="true" signature="174:727" ph="{...}" />
+            <marker date="1521207005000" expanded="true" signature="218:489" ph="{...}" />
+            <marker date="1521207005000" expanded="true" signature="322:480" ph="{...}" />
+            <marker date="1521207005000" expanded="true" signature="388:430" ph="{...}" />
+            <marker date="1521207005000" expanded="true" signature="577:668" ph="{...}" />
+            <marker date="1521207005000" expanded="true" signature="762:797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <marker date="1521210274000" expanded="true" signature="0:707" ph="{&quot;name&quot;: &quot;client&quot;...}" />
+            <marker date="1521210274000" expanded="true" signature="74:205" ph="{...}" />
+            <marker date="1521210274000" expanded="true" signature="91:138" ph="{&quot;target&quot;: &quot;http://localhost:5000&quot;...}" />
+            <marker date="1521210274000" expanded="true" signature="154:201" ph="{&quot;target&quot;: &quot;http://localhost:5000&quot;...}" />
+            <marker date="1521210274000" expanded="true" signature="225:532" ph="{&quot;axios&quot;: &quot;^0.16.2&quot;...}" />
+            <marker date="1521210274000" expanded="true" signature="547:705" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/config/keys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521210274000" expanded="true" signature="43:84" ph="{...}" />
+            <marker date="1521210274000" expanded="true" signature="125:164" ph="{...}" />
+            <marker date="1521210274000" expanded="true" signature="170:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/config/dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1521212906000" expanded="true" signature="17:269" ph="{&quot;googleClientID&quot;: '964808011168-29vqsooppd769hk90kjbjm5gld0glssb.apps.googleusercontent.com'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/config/prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521210274000" expanded="true" signature="17:195" ph="{&quot;googleClientID&quot;: process.env.GOOGLE_CLIENT_ID...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="40" />
           <folding />
         </state>
       </provider>
