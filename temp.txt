@@ -2,3 +2,18 @@ To have launchd start redis now and restart at login:
   brew services start redis
 Or, if you don't want/need a background service you can just run:
   redis-server /usr/local/etc/redis.conf
+
+  Simple string objects -> key/value
+  .set('key', 'value');
+  .get('key', (err, value) => {});
+  // With expiry (EX) (seconds)
+  .set('key', 'value', 'EX', 5);
+
+  Hash objects: key / nested keys/values
+  .hset('key', 'otherkey', 'value');
+  .hget('key', 'key', (err, value) => {});
+
+  // can only store letters / numbers, so objects need to be stringified to JSON
+  // e.g.
+  .set('colours', JSON.stringify({ red: 'rot', blue: 'blau' }));
+
